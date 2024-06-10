@@ -7,6 +7,7 @@ import Blog from "../components/Blog";
 import Keunggulan from "../components/Tanggapan";
 import Footer from "../components/Footer";
 
+
 const Landingpage = () => {
   return ( 
     <div className="overflow-hidden">

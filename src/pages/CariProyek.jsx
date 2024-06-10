@@ -1,16 +1,16 @@
 import React from 'react'
 import HeaderRelawan from '../components/HeaderRelawan';
-import Dashboardrel from '../components/Dashboardrel'
+import Cariproyek from '../components/CariProyek'
 import Footer from "../components/Footer";
 
-const Dashboardrelawan = () => {
+const CariProyek = () => {
   return ( 
     <div className="overflow-hidden">
       <HeaderRelawan />
-      <Dashboardrel />
+      <Cariproyek />
       <Footer />
     </div>
   )
 }
 
-export default Dashboardrelawan;
+export default CariProyek;

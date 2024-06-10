@@ -1,16 +1,16 @@
 import React from 'react'
 import HeaderRelawan from '../components/HeaderRelawan';
-import Dashboardrel from '../components/Dashboardrel'
+import Profile from '../components/Profile'
 import Footer from "../components/Footer";
 
-const Dashboardrelawan = () => {
+const Profilerelawan = () => {
   return ( 
     <div className="overflow-hidden">
       <HeaderRelawan />
-      <Dashboardrel />
+      <Profile />
       <Footer />
     </div>
   )
 }
 
-export default Dashboardrelawan;
+export default Profilerelawan;

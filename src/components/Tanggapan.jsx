@@ -15,7 +15,7 @@ const Tanggapan = () => {
           </div>
           <div className="p-4 text-center">
             <h3 className="font-bold">Teruntuk Website</h3>
-            <p className="text-gray-600 mt-4"> {/* Added margin-top */}
+            <p className="text-gray-600 mt-4"> 
               Platform VolunteersGood sangat mudah digunakan dan dapat
               menyatukan kebaikan, kami bisa bertemu dengan relawan dan
               organisasi nirlaba sehingga dapat memperluas jangkauan kami.
@@ -28,7 +28,7 @@ const Tanggapan = () => {
           </div>
           <div className="p-4 text-center">
             <h3 className="font-bold">Teruntuk Website</h3>
-            <p className="text-gray-600 mt-4"> {/* Added margin-top */}
+            <p className="text-gray-600 mt-4"> 
               Platform VolunteersGood sangat mudah digunakan dan dapat
               menyatukan kebaikan, kami bisa bertemu dengan relawan dan
               organisasi nirlaba sehingga dapat memperluas jangkauan kami.

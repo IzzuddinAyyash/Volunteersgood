@@ -45,7 +45,7 @@ const Kegiatan = () => {
                 </div>
             </div>
             <div className="pt-10 text-center">
-                <Link to="/" className="text-base underline" style={{ color: '#0A65CC' }}>Lihat Proyek Lainnya</Link>
+                <Link to="/Login" className="text-base underline" style={{ color: '#0A65CC' }}>Lihat Proyek Lainnya</Link>
             </div>
         </div>
     );

@@ -16,7 +16,7 @@ const Footer = () => {
             <ul>
               <li>Tentang Kami</li>
               <li>Kontak Kami</li>
-              <li>Blok</li>
+              <li>Blog</li>
             </ul>
           </div>
           {/* Kolom Kanan */}
@@ -25,7 +25,7 @@ const Footer = () => {
             <ul>
               <li>Tentang Kami</li>
               <li>Kontak Kami</li>
-              <li>Blok</li>
+              <li>Blog</li>
             </ul>
           </div>
         </div>

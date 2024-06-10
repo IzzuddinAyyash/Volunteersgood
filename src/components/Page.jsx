@@ -13,25 +13,25 @@ const Page = () => {
           <img src={Relawan} alt="Relawan" className="w-24 h-24 mb-4" />
           <h3 className="font-bold text-lg">Relawan</h3>
           <p className="font-thin mt-2 mb-4">Ayo cari relawan yang sesuai dengan kriteria dan kebutuhan proyek anda</p>
-          <Link to="/relawan" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Relawan</Link>
+          <Link to="/Login" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Relawan</Link>
         </div>
         <div className="w-full sm:w-64 md:w-60 lg:w-60 bg-white rounded-xl shadow-xl flex flex-col items-center text-center p-6" style={{ height: '420px' }}>
           <img src={Organisasi} alt="Organisasi" className="w-24 h-24 mb-4" />
           <h3 className="font-bold text-lg">Organisasi</h3>
           <p className="font-thin mt-2 mb-4">Bergabunglah dengan organisasi yang sesuai dengan kemampuan kamu</p>
-          <Link to="/organisasi" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Organisasi</Link>
+          <Link to="/Login" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Organisasi</Link>
         </div>
         <div className="w-full sm:w-64 md:w-60 lg:w-60 bg-white rounded-xl shadow-xl flex flex-col items-center text-center p-6" style={{ height: '420px' }}>
           <img src={Proyek} alt="Proyek" className="w-24 h-24 mb-4" />
           <h3 className="font-bold text-lg">Proyek</h3>
           <p className="font-thin mt-2 mb-4">Carilah proyek yang sesuai dengan passion kamu dan jangan salah pilih</p>
-          <Link to="/proyek" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Proyek</Link>
+          <Link to="/Login" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Cari Proyek</Link>
         </div>
         <div className="w-full sm:w-64 md:w-60 lg:w-60 bg-white rounded-xl shadow-xl flex flex-col items-center text-center p-6" style={{ height: '420px' }}>
           <img src={Donasi} alt="Donasi" className="w-24 h-24 mb-4" />
           <h3 className="font-bold text-lg">Donasi</h3>
           <p className="font-thin mt-2 mb-4">Ayo sisihkan penghasilan anda untuk orang yang lebih membutuhkan</p>
-          <Link to="/donasi" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Donasi</Link>
+          <Link to="/Login" className="bg-[#0A65CC] w-32 h-10 rounded-lg flex items-center justify-center text-white font-semibold mt-5">Donasi</Link>
         </div>
       </div>
     </div>

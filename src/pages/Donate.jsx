@@ -1,16 +1,16 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
+import HeaderRelawan from '../components/HeaderRelawan';
 import Donasicomp from '../components/Donasicomp';
 import Footer from "../components/Footer";
 
-const Donasi = () => {
+const Donate = () => {
   return ( 
     <div className="overflow-hidden">
-      <Navbar />
+      <HeaderRelawan />
       <Donasicomp />
       <Footer />
     </div>
   )
 }
 
-export default Donasi;
+export default Donate;

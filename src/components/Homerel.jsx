@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 
-const Home = () => {
+const Homerel = () => {
     return (
         <div 
             id="home" 
@@ -14,7 +14,7 @@ const Home = () => {
                         Temukan kesempatan menjadi Relawan dengan <span className="text-[#5FF5FF]">Volunteers Good</span>
                     </h1>
                     <div className="relative mb-20">
-                        <Link to="/Login">
+                        <Link to="/CariProyek">
                             <FaSearch className="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer" style={{ color: '#0A65CC' }} />
                         </Link>
                         <input 
@@ -29,4 +29,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Homerel;

@@ -4,12 +4,12 @@ import svg_facebook from '../assets/svg_facebook.svg';
 
 const Login = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      <div className="w-full max-w-md p-14 bg-[#0A65CC]">
-        <div className="max-w-xl w-full space-y-5 border-2 p-10 rounded-lg bg-white">
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="w-full max-w-md p-14 ">
+        <div className="">
           <div>
-            <h2 className="mt-4 text-center text-3xl font-extrabold text-[#0A65CC]">
-              Login
+            <h2 className="mt-4 text-center text-2xl font-extrabold text-[#333333]">
+              Masuk
             </h2>
             <h4 className="mt-4 text-center text-1xl font-light text-[#696A6F]">
               
@@ -22,7 +22,7 @@ const Login = () => {
                   className="block text-gray-700 text-sm font-bold mb-2"
                   htmlFor="username"
                 >
-                  Username
+                  Email
                 </label>
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -57,16 +57,16 @@ const Login = () => {
                 />
                 <label
                   htmlFor="remember-me"
-                  className="ml-2 block text-sm text-[#008DDA]"
+                  className="ml-2 block text-sm text-[#181818]"
                 >
-                  Simpan Login
+                  Ingat Saya
                 </label>
               </div>
 
               <div className="text-sm">
                 <a
                   href="#"
-                  className="font-medium text-[#008DDA] hover:text-[#1572A1]"
+                  className="font-medium  text-[#181818] hover:text-[#1572A1]"
                 >
                   Lupa Password?
                 </a>
@@ -75,9 +75,9 @@ const Login = () => {
 
             <div>
               <Link
-                to="/"
+                to="/Lprelawan"
                 type="submit"
-                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#1572A1] hover:bg-[#008DDA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
+                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#0A65CC] hover:bg-[#008DDA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
               >
                 Masuk
               </Link>
@@ -85,11 +85,11 @@ const Login = () => {
 
             <div className="relative my-6">
               <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-[#008DDA]"></div>
+                <div className="w-full border-t border-[#666666]"></div>
               </div>
               <div className="relative flex justify-center text-sm">
                 <span className="px-2 bg-white font-semibold text-gray-700">
-                  OR
+                  ATAU
                 </span>
               </div>
             </div>
@@ -110,25 +110,12 @@ const Login = () => {
               </button>
             </div>
             <div>
-              <button
-                type="button"
-                className="group relative w-full flex justify-center py-2 px-4 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
-              >
-                <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                  <img
-                    src={svg_facebook}
-                    className="h-5 w-5"
-                    alt="Facebook"
-                  />
-                </span>
-                Sign in with Facebook
-              </button>
             </div>
 
             <div className="text-center text-sm text-gray-600">
               Tidak punya akun?{' '}
               <Link
-                to="/Daftar"
+                to="/DaftarRelawan"
                 className="font-medium text-[#008DDA] hover:text-[#1572A1]"
               >
                 Daftar
